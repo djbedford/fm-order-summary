@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FM - Order Summary</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <main
+      class="h-screen flex justify-center items-center font-red-hat font-medium text-base text-desaturated-blue text-center bg-pale-blue bg-[url('images/pattern-background-mobile.svg')] sm:bg-[url('images/pattern-background-desktop.svg')] bg-no-repeat bg-contain"
+    >
+      <div
+        class="flex flex-col max-w-xs sm:max-w-md bg-white rounded-3xl shadow-lg shadow-desaturated-blue/30"
+      >
+        <img
+          src="images/illustration-hero.svg"
+          class="mb-6 sm:mb-10 rounded-t-3xl"
+          alt="person dancing while listening to music"
+        />
+        <div class="flex flex-col mx-5 sm:mx-10">
+          <h1 class="font-black text-2xl text-dark-blue mb-5">Order Summary</h1>
+          <p class="px-2 mb-6">
+            You can now listen to millions of songs, audiobooks, and podcasts on
+            any device anywhere you like!
+          </p>
+          <div
+            class="flex items-center justify-between p-4 sm:p-6 mb-6 sm:mb-8 bg-very-pale-blue rounded-xl"
+          >
+            <div class="flex space-x-5 :sm:space-x-4">
+              <img src="images/icon-music.svg" alt="music icon" />
+              <div>
+                <p class="font-bold text-dark-blue">Annual Plan</p>
+                <p>$59.99/year</p>
+              </div>
+            </div>
+            <a
+              href="#"
+              class="text-xs text-bright-blue hover:text-indigo-500 underline font-bold"
+              >Change</a
+            >
+          </div>
+          <button
+            class="font-bold text-white py-4 mb-5 sm:mb-8 bg-bright-blue hover:bg-indigo-500 rounded-xl shadow-lg shadow-bright-blue/30"
+          >
+            Proceed to Payment
+          </button>
+          <span class="mb-5 sm:mb-10"
+            ><a href="#" class="font-bold hover:text-dark-blue"
+              >Cancel Order</a
+            ></span
+          >
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
